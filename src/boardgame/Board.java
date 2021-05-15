@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package boardgame;
 
 /**
  *
- * @author HUANG
+ * @author MARCOSHUANG
  */
 public class Board {
     	private int rows;
@@ -34,5 +30,13 @@ public class Board {
 
 	public void setColumns(int columns) {
             this.columns = columns;
+	}
+        
+        public Piece piece(int row, int column) {
+            return pieces[row][column];
+	}
+
+	public Piece piece(Position position) {
+            return pieces[position.getRow()][position.getColumn()];
 	}
 }

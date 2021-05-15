@@ -1,8 +1,9 @@
 
-package chess.system;
+package chesssystem;
 
 import boardgame.Board;
 import boardgame.Position;
+import chess.ChessMatch;
 
 /**
  *
@@ -11,8 +12,9 @@ import boardgame.Position;
 public class ChessSystem {
 
     public static void main(String[] args) {
-        
-        Board board = new Board(8, 8);
+        //Teste
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
     }
     
 }
