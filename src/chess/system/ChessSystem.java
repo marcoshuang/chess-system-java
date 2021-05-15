@@ -5,9 +5,11 @@
  */
 package chess.system;
 
+import boardgame.Position;
+
 /**
  *
- * @author HUANG
+ * @author MARCOSHUANG
  */
 public class ChessSystem {
 
@@ -15,7 +17,8 @@ public class ChessSystem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Position pos = new Position(3, 5);
+        System.out.println(pos);
     }
     
 }
