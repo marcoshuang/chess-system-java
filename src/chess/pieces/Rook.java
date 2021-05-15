@@ -11,7 +11,7 @@ import chess.Color;
 
 /**
  *
- * @author HUANG
+ * @author MARCOSHUANG
  */
 
 public class Rook extends ChessPiece {
