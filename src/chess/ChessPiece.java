@@ -9,7 +9,7 @@ import boardgame.Board;
 import boardgame.Piece;
 /**
  *
- * @author HUANG
+ * @author MARCOSHUANG
  */
 public class ChessPiece extends Piece{
     private Color color;

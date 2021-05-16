@@ -9,7 +9,7 @@ import boardgame.Position;
 
 /**
  *
- * @author HUANG
+ * @author MARCOSHUANG
  */
 public class ChessPosition {
     private char column;
